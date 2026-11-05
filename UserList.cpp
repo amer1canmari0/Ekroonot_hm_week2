@@ -49,6 +49,7 @@ void UserList::clear()
 	{
 		temp = this->_first;    // temp points to the first element
 		this->_first = this->_first->get_next();   // the list now starts from the 2nd element
+		temp->get_data().clear();
 		delete temp;    // deletes the previous first element
 	}
 }

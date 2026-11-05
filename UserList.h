@@ -42,5 +42,3 @@ public:
 private:
 	UserNode* _first;   // first Node in the list
 };
-
-
